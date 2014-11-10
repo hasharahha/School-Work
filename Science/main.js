@@ -1,6 +1,7 @@
 alert("Loading Water index")
 
 function search(){
+  alert("Checking Server....")
 var key = document.getElementById("search").value;
 search = key.toLowerCase();
 if(search==="evaporation"){
