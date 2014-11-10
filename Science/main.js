@@ -1,6 +1,9 @@
+alert("Loading Water index")
+
 function search(){
 var key = document.getElementById("search").value;
-key = key.toLowerCase();
-if(key=="evaporation"){
-document.getElementById("definition").innerHTML="The Changing of liquid into a gas";
+search = key.toLowerCase();
+if(search==="evaporation"){
+document.getElementById("definition").innerHTML="The Process Changing of liquid into a gas";
+}
 }
