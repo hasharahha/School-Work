@@ -26,4 +26,22 @@ function search(keyword){
   else if(search==="headwaters"){
     alert("Definition:"+Define[8])
   }
+  else if(search==="ocean"){
+    alert("Definition:"+Define[9]);
+  }
+  else if(search==="condensation"){
+    alert("Definition:"+Define[10]);
+  }
+  else if(search==="floodplain"){
+    alert("Definition:"+Define[11]);
+  }
+  else if(search==="oxbowlake"){
+    alert("Definition:"+Dfine[12]);
+  }
+  else if(search==="wetland"){
+    alert("Definition:"+Define[13])
+  }
+  else if(search==="ridge"){
+    alert("Definition:"+Define[14])
+  }
 }
