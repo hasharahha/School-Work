@@ -78,6 +78,8 @@ function search(keyword){
   else if(search==="ridge"){
     confirm("No image found");
     alert("Definition:"+Define[14])
+    document.getElementById("definition").innerHTML="Definition: "+Define[14];
+    document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
   else if(search==="meander"){
     confirm("No image found");
@@ -95,7 +97,7 @@ else if(search==="transpiration"){
 }
 else{
   document.getElementById("definition").innerHTML="sorry but "+search+" did not match any of our documents";
-  
+  document.getElementById("searchimg").style.backgroundPosition='0px 0px';
 }
 }
 
