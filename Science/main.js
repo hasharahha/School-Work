@@ -5,6 +5,7 @@ function search(keyword){
   if(search==="evaporation"){
     alert("Definition:"+Define[1]);
     document.getElementById("definition").innerHTML="Definition: "+Define[1];
+    document.getElementById("searchimg").style.backgroundPosition='0px -150px';
   }
   else if(search==="precipitation"){
     alert("Definition:"+Define[2]);
