@@ -33,11 +33,13 @@ function search(keyword){
     document.getElementById("searchimg").style.backgroundPosition='0px -900px';
   }
   else if(search==="percolation"){
+    confirm("No images found");
     alert("Definition:"+Define[7]);
     document.getElementById("definition").innerHTML="Definition: "+Define[7];
     document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
   else if(search==="headwaters"){
+    confirm("No image found");
     alert("Definition:"+Define[8]);
     document.getElementById("definition").innerHTML="Definition: "+Define[8];
     document.getElementById("searchimg").style.backgroundPosition='0px 0px';
@@ -45,8 +47,8 @@ function search(keyword){
   else if(search==="ocean"){
     alert("Definition:"+Define[9]);
     document.getElementById("definition").innerHTML="Definition: "+Define[9];
-    document.getElementById("searchimg").style.backgroundPosition='0px 0px;
-    //what happened here
+    document.getElementById("searchimg").style.backgroundPosition='0px 0px';
+    
   }
   else if(search==="condensation"){
     alert("Definition:"+Define[10]);
