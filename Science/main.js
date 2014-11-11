@@ -17,4 +17,7 @@ function search(keyword){
   else if(search==="river"){
     alert("Definition:"+Define[5])
   }
+  else if(search==="groundwater"){
+    alert("Definition:"+Define[6]);
+  }
 }
