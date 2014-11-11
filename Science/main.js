@@ -58,8 +58,6 @@ function search(keyword){
   }
   else if(search==="floodplain"){
     alert("Definition:"+Define[11]);
-    
-    
   }
   else if(search==="oxbowlake"){
     alert("Definition:"+Define[12]);
