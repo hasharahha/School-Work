@@ -53,12 +53,14 @@ function search(keyword){
   else if(search==="condensation"){
     confirm("No image found")
     alert("Definition:"+Define[10]);
-    document.getElementById("definition").innerHTML+"Definition: "+Define[10];
+    document.getElementById("definition").innerHTML="Definition: "+Define[10];
     document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
   else if(search==="floodplain"){
     confirm("No image found");
     alert("Definition:"+Define[11]);
+    document.getElementById("definition").innerHTML="Definition: "+Define[11];
+    document.getElementById("searchimg").style.bakgroundPosition='0px 0px';
   }
   else if(search==="oxbowlake"){
     alert("Definition:"+Define[12]);
