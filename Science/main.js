@@ -56,7 +56,7 @@ function search(keyword){
     document.getElementById("definition").innerHTML+"Definition: "+Define[10];
     document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
-  else if(search==="floodplain"){
+  if(search==="floodplain"){
     alert("Definition:"+Define[11]);
   }
   else if(search==="oxbowlake"){
