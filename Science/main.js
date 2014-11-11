@@ -49,8 +49,8 @@ function search(keyword){
     confirm("sorry no image data found");
     document.getElementById("definition").innerHTML="Definition: "+Define[9];
     document.getElementById("searchimg").style.backgroundPosition='0px 0px;
+    //what happened here
   }
-}
   if(search==="condensation"){
     alert("Definition:"+Define[10]);
     confirm("Sorry no image data was found");
