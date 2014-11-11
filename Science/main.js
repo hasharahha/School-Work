@@ -84,16 +84,25 @@ function search(keyword){
   else if(search==="meander"){
     confirm("No image found");
     alert("Definition:"+Define[15]);
+    document.getElementById("definition").innerHTML="Definiton: "+Define[15];
+    document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
   else if(search==="mouth"){
     confirm("No image found");
     alert("Deinition:"+Define[16]);
+    document.getElementById("definition").innerHTML="Definition: "+Define[16];
   }
   else if(search==="delta"){
-  alert("Definition:"+Define[17]);
+    confirm("No image found");
+    alert("Definition:"+Define[17]);
+    document.getElementById("definition").innerHTML="Definition: "+Define[17];
+    document.getElementById("searchimg").style.backgroundPosition='0px 0px';
 }
 else if(search==="transpiration"){
+  confirm("No image found");
   alert("Definition:"+Define[18]);
+  document.getElementById("definition").innerHTML="Definition: "+Define[18];
+  document.getElementById("searchimg").style.backgroundPosition='0px 0px';
 }
 else{
   document.getElementById("definition").innerHTML="sorry but "+search+" did not match any of our documents";
