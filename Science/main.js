@@ -34,28 +34,23 @@ function search(keyword){
   }
   else if(search==="percolation"){
     alert("Definition:"+Define[7]);
-    confirm("sorry no image found");
     document.getElementById("definition").innerHTML="Definition: "+Define[7];
     document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
   else if(search==="headwaters"){
     alert("Definition:"+Define[8]);
-    confirm("sorry no image data was found");
     document.getElementById("definition").innerHTML="Definition: "+Define[8];
     document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
   else if(search==="ocean"){
     alert("Definition:"+Define[9]);
-    confirm("sorry no image data found");
     document.getElementById("definition").innerHTML="Definition: "+Define[9];
     document.getElementById("searchimg").style.backgroundPosition='0px 0px;
     //what happened here
   }
-  if(search==="condensation"){
+  else if(search==="condensation"){
     alert("Definition:"+Define[10]);
-    confirm("Sorry no image data was found");
     document.getElementById("definition").innerHTML+"Definition: "+Define[10];
-    document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
   else if(search==="floodplain"){
     alert("Definition:"+Define[11]);
