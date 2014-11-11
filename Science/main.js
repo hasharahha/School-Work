@@ -20,4 +20,10 @@ function search(keyword){
   else if(search==="groundwater"){
     alert("Definition:"+Define[6]);
   }
+  else if(search==="percolation"){
+    alert("Definition:"+Define[7]);
+  }
+  else if(search==="headwaters"){
+    alert("Definition:"+Define[8])
+  }
 }
