@@ -39,16 +39,27 @@ function search(keyword){
     document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
   else if(search==="headwaters"){
-    alert("Definition:"+Define[8])
+    alert("Definition:"+Define[8]);
+    confirm("sorry no image data was found");
+    document.getElementById("definition").innerHTML="Definition: "+Define[8];
+    document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
   else if(search==="ocean"){
     alert("Definition:"+Define[9]);
+    confirm("sorry no image data found");
+    document.getElementById("definition").innerHTML="Definition: "+Define[9];
+    document.getElementById("searchimg").style.backgroundPosition='0px 0px;
   }
   else if(search==="condensation"){
     alert("Definition:"+Define[10]);
+    confirm("Sorry! no image data was found");
+    document.getElementById("definition").innerHTML+"Definition: "+Define[10];
+    document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
   else if(search==="floodplain"){
     alert("Definition:"+Define[11]);
+    
+    
   }
   else if(search==="oxbowlake"){
     alert("Definition:"+Dfine[12]);
