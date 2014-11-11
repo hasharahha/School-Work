@@ -9,12 +9,17 @@ function search(keyword){
   }
   else if(search==="precipitation"){
     alert("Definition:"+Define[2]);
+    document.getElementById("definition").innerHTML="Definition: "+Define[2];
+    document.getElementById("searchimg").style.backgroundPosition='0px -300px';
   }
   else if(search==="tributaries"){
     alert("Definition:"+Define[3]);
+    document.getElementById("definition").innerHTML="Definition: "+Define[3];
+    document.getElementById("searching").style.backgroundPosition='0px -450px'
   }
   else if(search==="lake"){
     alert("Definition:"+Define[4]);
+    document.getElementById("definition").innerHTML="Definition: "+Define[4];
   }
   else if(search==="river"){
     alert("Definition:"+Define[5])
