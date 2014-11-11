@@ -66,20 +66,25 @@ function search(keyword){
     confirm("No image Found Because server is full of http request");
     alert("Definition:"+Define[12]);
     document.getElementById("definition").innerHTML="Definition: "+Define[12];
-    document.getElementById("definition").innerHTML="Definition: "+Define[13];
+    document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
   else if(search==="wetland"){
     confirm("No image found");
     alert("Definition:"+Define[13])
+    document.getElementById("definition").innerHTML="Definition: "+Define[13];
+    document.getElementById("searchimg").style.backgroundPosition='0px 0px';
     
   }
   else if(search==="ridge"){
+    confirm("No image found");
     alert("Definition:"+Define[14])
   }
   else if(search==="meander"){
+    confirm("No image found");
     alert("Definition:"+Define[15]);
   }
   else if(search==="mouth"){
+    confirm("No image found");
     alert("Deinition:"+Define[16]);
   }
   else if(search==="delta"){
