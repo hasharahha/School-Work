@@ -15,20 +15,28 @@ function search(keyword){
   else if(search==="tributaries"){
     alert("Definition:"+Define[3]);
     document.getElementById("definition").innerHTML="Definition: "+Define[3];
-    document.getElementById("searching").style.backgroundPosition='0px -450px'
+    document.getElementById("searchimg").style.backgroundPosition='0px -450px'
   }
   else if(search==="lake"){
     alert("Definition:"+Define[4]);
     document.getElementById("definition").innerHTML="Definition: "+Define[4];
+    document.getElementById("searchimg").style.backgroundPosition='0px -600px'
   }
   else if(search==="river"){
-    alert("Definition:"+Define[5])
+    alert("Definition:"+Define[5]);
+    document.getElementById("definition").innerHTML="Definition: "+Define[5];
+    document.getElementById("searchimg").style.backgroundPosition='0px -750px';
   }
   else if(search==="groundwater"){
     alert("Definition:"+Define[6]);
+    document.getElementById("definition").innerHTML="Definition: "+Define[6];
+    document.getElementById("searchimg").style.backgroundPosition='0px -900px';
   }
   else if(search==="percolation"){
     alert("Definition:"+Define[7]);
+    confirm("sorry no image found");
+    document.getElementById("definition").innerHTML="Definition: "+Define[7];
+    document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
   else if(search==="headwaters"){
     alert("Definition:"+Define[8])
