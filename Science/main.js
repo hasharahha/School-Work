@@ -60,13 +60,18 @@ function search(keyword){
     confirm("No image found");
     alert("Definition:"+Define[11]);
     document.getElementById("definition").innerHTML="Definition: "+Define[11];
-    document.getElementById("searchimg").style.bakgroundPosition='0px 0px';
+    document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
   else if(search==="oxbowlake"){
+    confirm("No image Found Because server is full of http request");
     alert("Definition:"+Define[12]);
+    document.getElementById("definition").innerHTML="Definition: "+Define[12];
+    document.getElementById("definition").innerHTML="Definition: "+Define[13];
   }
   else if(search==="wetland"){
+    confirm("No image found");
     alert("Definition:"+Define[13])
+    
   }
   else if(search==="ridge"){
     alert("Definition:"+Define[14])
