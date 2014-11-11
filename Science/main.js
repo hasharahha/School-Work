@@ -4,7 +4,6 @@ function search(keyword){
   var search = keyword.toLowerCase();
   if(search==="evaporation"){
     alert("Definition:"+Define[1]);
-    document.getElementById("definition").innerHTML="Definition: "+Define[1];
   }
   else if(search==="precipitation"){
     alert("Definition:"+Define[2]);
