@@ -14,4 +14,7 @@ function search(keyword){
   else if(search==="lake"){
     alert("Definition:"+Define[4]);
   }
+  else if(search==="river"){
+    alert("Definition:"+Define[5])
+  }
 }
