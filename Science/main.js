@@ -110,9 +110,3 @@ else{
 }
 }
 
-
-function Contact(){
-  var person = prompt("Leave your first name:", "Here");
-  alert("Okay, "+person+" Email me at hasharahha@gmail.com");
-}
-
