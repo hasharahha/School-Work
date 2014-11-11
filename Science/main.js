@@ -109,7 +109,4 @@ else{
 }
 }
 
-function Contact(){
-  alert("hasharahha@gmail.com");
-}
 
