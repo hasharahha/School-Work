@@ -50,6 +50,7 @@ function search(keyword){
     document.getElementById("definition").innerHTML="Definition: "+Define[9];
     document.getElementById("searchimg").style.backgroundPosition='0px 0px;
   }
+}
   if(search==="condensation"){
     alert("Definition:"+Define[10]);
     confirm("Sorry no image data was found");
