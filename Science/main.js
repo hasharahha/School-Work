@@ -77,3 +77,8 @@ else if(search==="transpiration"){
   alert("Definition:"+Define[18]);
 }
 }
+
+
+function Emergency(){
+alert("There's an emergency")
+}
