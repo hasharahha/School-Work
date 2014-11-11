@@ -88,6 +88,10 @@ function search(keyword){
 else if(search==="transpiration"){
   alert("Definition:"+Define[18]);
 }
+else{
+  document.getElementById("definition").innerHTML="sorry but "+search+" did not match any of our documents";
+  
+}
 }
 
 
