@@ -39,19 +39,18 @@ function search(keyword){
     document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
   else if(search==="headwaters"){
-    confirm("No image found");
     alert("Definition:"+Define[8]);
     document.getElementById("definition").innerHTML="Definition: "+Define[8];
-    document.getElementById("searchimg").style.backgroundPosition='0px 0px';
+    document.getElementById("searchimg").style.backgroundPosition='0px -1050px';
   }
   else if(search==="ocean"){
     alert("Definition:"+Define[9]);
     document.getElementById("definition").innerHTML="Definition: "+Define[9];
-    document.getElementById("searchimg").style.backgroundPosition='0px 0px';
+    document.getElementById("searchimg").style.backgroundPosition='0px -1200px';
     
   }
   else if(search==="condensation"){
-    confirm("No image found")
+    confirm("no image found")
     alert("Definition:"+Define[10]);
     document.getElementById("definition").innerHTML="Definition: "+Define[10];
     document.getElementById("searchimg").style.backgroundPosition='0px 0px';
@@ -106,7 +105,11 @@ else if(search==="transpiration"){
 }
 else{
   document.getElementById("definition").innerHTML="sorry but "+search+" did not match any of our documents";
-  document.getElementById("searchimg").style.backgroundPosition='0px 0px';
+  document.getElementById("searchimg").style.backgroundPosition='0px -1350px';
 }
 }
 
+function Contact(){
+  alert("hasharahha@gmail.com");
+}
+}
