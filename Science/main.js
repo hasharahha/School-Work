@@ -52,7 +52,7 @@ function search(keyword){
   }
   else if(search==="condensation"){
     alert("Definition:"+Define[10]);
-    confirm("Sorry! no image data was found");
+    confirm("Sorry no image data was found");
     document.getElementById("definition").innerHTML+"Definition: "+Define[10];
     document.getElementById("searchimg").style.backgroundPosition='0px 0px';
   }
@@ -62,7 +62,7 @@ function search(keyword){
     
   }
   else if(search==="oxbowlake"){
-    alert("Definition:"+Dfine[12]);
+    alert("Definition:"+Define[12]);
   }
   else if(search==="wetland"){
     alert("Definition:"+Define[13])
