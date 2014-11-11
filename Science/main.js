@@ -44,4 +44,16 @@ function search(keyword){
   else if(search==="ridge"){
     alert("Definition:"+Define[14])
   }
+  else if(search==="meander"){
+    alert("Definition:"+Define[15]);
+  }
+  else if(search==="mouth"){
+    alert("Deinition:"+Define[16]);
+  }
+  else if(search==="delta"){
+  alert("Definition:"+Define[17]);
+}
+else if(search==="transpiration"){
+  alert("Definition:"+Define[18]);
+}
 }
