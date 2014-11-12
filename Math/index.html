@@ -4,6 +4,16 @@
 <body>
 <head>
 <script type="text/javascript" src="test.js"></script></script>
+<script type="text/javascript">
+  setInterval("Time()", 1000);
+  var Time = 180;
+  function Time(){
+    Time -= 1;
+    document.getElementById("Timer").innerHTML="Time Left: "+Time;
+    
+  }
+  
+</script>
 <style>
 #Header{
 color: lightblue;
@@ -16,12 +26,17 @@ padding: 5px;
   color: white;
   
 }
+#Timer{
+  text-align: right;
+  color: red;
+}
 </style>
 </head>
 <div id="Header">
 <h2>Solving Linear Equations and Inequalities</h2>
 <h4>Made By Jacob Bondley</h4>
 </div>
+<h5 id="Timer">Time Left: 180</h5>
 <div id="Questions">
 <h4>Multi-Choice</h4>
 <code>1. 4x + 2y = 6 Solve for y</code><br>
