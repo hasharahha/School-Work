@@ -11,5 +11,6 @@ function Check1(){
    }
  }
  function Check3(){
-   if(document.getElememtById("Q"))
+   if(document.getElememtById("Q3D").checked){
  }
+}
