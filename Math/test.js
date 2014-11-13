@@ -1,6 +1,7 @@
 //Checker for test
 var score =0;
 function Check(){
+  alert("Checking score")
 Check1();
 Check2();
 Check3();
