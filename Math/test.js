@@ -1,21 +1,6 @@
 //Checker for test
 alert("test loaded");
 var score =0;
-function Check(){
-
-setTimeout("Check1()", 500);
-setTimeout("Check2()", 600);
-setTimeout("Check3()", 700);
-setTimeout("Check4()", 800);
-setTimeout("Check5()", 900);
-setTimeout("Check6()", 1000);
-setTimeout("Check7()", 1100);
-setTimeout("Check8()", 1200);
-setTimeout("Check9()", 1300);
-setTimeout("Check10()", 1400);
-setInterval("UpdateScore()", 2000);
-
-}
 function Check1(){
   if(document.getElementById("Q1A").checked){
     score +=10;
@@ -71,7 +56,20 @@ function UpdateScore(){
   document.getElementById("score").innerHTML="Score: "+score;
 }
 
+function Check(){
 
+setTimeout("Check1()", 500);
+setTimeout("Check2()", 600);
+setTimeout("Check3()", 700);
+setTimeout("Check4()", 800);
+setTimeout("Check5()", 900);
+setTimeout("Check6()", 1000);
+setTimeout("Check7()", 1100);
+setTimeout("Check8()", 1200);
+setTimeout("Check9()", 1300);
+setTimeout("Check10()", 1400);
+setInterval("UpdateScore()", 2000);
+}
 
 
 
