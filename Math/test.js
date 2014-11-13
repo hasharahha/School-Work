@@ -48,9 +48,25 @@ function Check7(){
     score +=10;
   }
 }
+function Check8(){
+  if(document.getElementById("Q8B").checked){
+    score +=10;
+  }
+}
+function Check9(){
+  if(document.getElementById("Q9A").checked){
+    score +=10;
+  }
+}
+function Check10(){
+  if(document.getElementById("Q10A").checked){
+    score +=10;
+  }
+}
 
-
-
+function UpdateScore(){
+  document.getElementById("score").innerHTML="Score: "+score;
+}
 
 
 
